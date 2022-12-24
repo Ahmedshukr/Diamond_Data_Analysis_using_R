@@ -6,6 +6,10 @@ data("diamonds")
 View(diamonds)
 str(diamonds)
 
+anyNA(diamonds)
+
+
+
 ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut, color = cut))
 
