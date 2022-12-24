@@ -8,7 +8,7 @@ str(diamonds)
 
 anyNA(diamonds)
 
-
+str(diamonds)
 
 ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut, color = cut))
