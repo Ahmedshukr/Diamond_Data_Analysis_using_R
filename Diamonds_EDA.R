@@ -9,6 +9,7 @@ str(diamonds)
 # any missing values
 anyNA(diamonds)
 
+# structure of the dataset
 str(diamonds)
 
 ggplot(data = diamonds) +
