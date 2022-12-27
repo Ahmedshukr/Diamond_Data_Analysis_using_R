@@ -6,6 +6,7 @@ data("diamonds")
 View(diamonds)
 str(diamonds)
 
+# any missing values
 anyNA(diamonds)
 
 str(diamonds)
