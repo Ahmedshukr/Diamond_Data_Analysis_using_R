@@ -23,7 +23,14 @@ ggplot(data = diamonds) +
 ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut, fill = clarity))
 
-count(clarity)
+diamonds %>% 
+  count(clarity)
 
+diamonds %>% 
+  count(color)
+
+
+ggplot(data = diamonds) +
+  geom_point(mapping = aes(x = price, y=carat, color = clarity))
 
 
