@@ -29,7 +29,7 @@ diamonds %>%
 diamonds %>% 
   count(color)
 
-
+#let us look the relationship between price and carat
 ggplot(data = diamonds) +
   geom_point(mapping = aes(x = price, y=carat, color = clarity))
 
