@@ -23,9 +23,11 @@ ggplot(data = diamonds) +
 ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut, fill = clarity))
 
+#
 diamonds %>% 
   count(clarity)
 
+# count colors
 diamonds %>% 
   count(color)
 
